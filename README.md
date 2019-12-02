@@ -4,8 +4,7 @@ My ( Muhammad Rendra ) test project based on [AIA](https://github.com/thayub/tes
 
 This project use `NodeJs, ExpressJs, Axios, and standard ExpressJs dependcies like cors, path, and server-icon,`.
 
-and I have deploy the results in [ec2-54-179-136-166.ap-southeast-1.compute.amazonaws.com
-](http://ec2-54-179-136-166.ap-southeast-1.compute.amazonaws.com
+and I have deploy the results in [my-ec2-instance](http://ec2-54-179-136-166.ap-southeast-1.compute.amazonaws.com:4000
 )
 
 please review the code and feel free to comments :)

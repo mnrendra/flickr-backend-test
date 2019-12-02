@@ -5,6 +5,7 @@ const path = require('path')
 const cors = require('cors')
 // local modules
 const feed = require('./routes/feed')
+const search = require('./routes/search')
 
 // init express app
 const app = express()
@@ -18,6 +19,7 @@ app.use(favicon(path.join(__dirname, './', 'favicon.ico')))
 
 // setup routing
 app.get('/', feed)
+app.get('/:text/:perPage/:page', search)
 
 // setup port
 const PORT = process.env.PORT || 4000

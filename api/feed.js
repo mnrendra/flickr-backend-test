@@ -18,7 +18,7 @@ const feed = async () => {
       .replace(/\t/g, '')
     )
   } catch (e) {
-    // throe an error
+    // throw an error
     throw new Error(e)
   }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "flickr-backend-test",
+  "version": "1.0.0",
+  "description": "Muhammad Rendra (https://github.com/mnrendra) Flickr Backend test from AIA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnrendra/flickr-backend-test.git"
+  },
+  "keywords": [
+    "flickr"
+  ],
+  "author": "Muhammad Rendra ( https://github.com/mnrendra )",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnrendra/flickr-backend-test/issues"
+  },
+  "homepage": "https://github.com/mnrendra/flickr-backend-test#readme"
+}

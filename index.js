@@ -1,8 +1,10 @@
-// dependencies modules
+// node modules
 const express = require('express')
 const favicon = require('serve-favicon')
 const path = require('path')
 const cors = require('cors')
+// local modules
+const feed = require('./routes/feed')
 
 // init express app
 const app = express()
@@ -14,12 +16,8 @@ app.use(express.json())
 // use serve-favicon to prevent favicon request param
 app.use(favicon(path.join(__dirname, './', 'favicon.ico')))
 
-// test routing
-app.get('/', (req, res) => {
-  res.status(200).json({
-    msg: 'hallo!'
-  })
-})
+// setup routing
+app.get('/', feed)
 
 // setup port
 const PORT = process.env.PORT || 4000
